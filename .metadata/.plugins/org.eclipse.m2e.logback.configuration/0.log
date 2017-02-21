@@ -1483,3 +1483,12 @@ Caused by: java.io.IOException: Erro de entrada/saída
 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522) ~[com.google.guava_15.0.0.v201403281430.jar:na]
 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315) ~[com.google.guava_15.0.0.v201403281430.jar:na]
 	... 117 common frames omitted
+2017-02-20 20:23:07,502 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @88858ms
+2017-02-20 20:23:09,236 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-02-20 20:23:09,307 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@34c5edb8{/help,null,AVAILABLE}
+2017-02-20 20:23:09,349 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6e225859{HTTP/1.1,[http/1.1]}{127.0.0.1:4795}
+2017-02-20 20:23:09,349 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @90708ms
+2017-02-20 22:20:33,461 [Worker-59] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
+2017-02-20 22:20:34,216 [Worker-59] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
+2017-02-20 22:22:09,850 [Worker-60] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2017-02-20 22:22:13,217 [Worker-60] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
