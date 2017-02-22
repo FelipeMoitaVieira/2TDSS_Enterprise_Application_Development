@@ -1,0 +1,17 @@
+package br.com.fiap.teste;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import br.com.fiap.entity.Time;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		//Cadastrar um time
+		Time corinthians = new Time(0,"Corinthians","Arena Corinthians",
+				new GregorianCalendar(1910,Calendar.SEPTEMBER,1),null);
+	}
+
+}

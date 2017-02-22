@@ -1,0 +1,52 @@
+package br.com.fiap.dao.impl;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.TimeDAO;
+import br.com.fiap.entity.Time;
+
+public class TimeDAOImpl implements TimeDAO{
+
+	private EntityManager em;
+	
+	public TimeDAOImpl(EntityManager em) {
+		this.em = em;
+	}
+	
+	@Override
+	public void insert(Time time) {	
+		em.getTransaction().begin();
+		em.persist(time);
+		em.getTransaction().commit();
+		
+	}
+
+	@Override
+	public void update(Time time) {
+		em.getTransaction().begin();
+		em.merge(time);
+		em.getTransaction().commit();
+		
+	}
+	
+
+	@Override
+	public void delete(int id) {
+		em.getTransaction().begin();
+		em.remove(findById(id));
+		em.getTransaction().commit();
+		
+	}
+
+	@Override
+	public Time findById(int id) {
+		em.getTransaction().begin();
+		return em.find(Time.class, id);
+	}
+	
+	private void salvar() {
+		
+	
+	}
+
+}

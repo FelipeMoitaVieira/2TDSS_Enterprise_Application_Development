@@ -1,27 +1,6 @@
-INDEX VERSION 1.129+D:\Felipe\2TDSS_Enterprise_Application_Development\.metadata\.plugins\org.eclipse.jdt.core
-2072991247.index
-4251287082.index
-520704001.index
-4148839464.index
+INDEX VERSION 1.129+D:\2TDSS_Enterprise_Application_Development\.metadata\.plugins\org.eclipse.jdt.core
 4082806473.index
-3631050349.index
-3466113275.index
-2173167777.index
-2808043808.index
-2934790442.index
 3581795079.index
-3347809296.index
-2383506310.index
-1197777819.index
-286009645.index
-2521173393.index
-1380335029.index
-4113334281.index
-1225050828.index
-193176669.index
-4144870404.index
+2173167777.index
+1476591967.index
 24831126.index
-643898770.index
-181549292.index
-1420328010.index
-1922195122.index

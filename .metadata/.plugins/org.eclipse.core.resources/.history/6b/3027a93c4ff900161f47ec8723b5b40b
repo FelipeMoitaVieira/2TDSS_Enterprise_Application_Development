@@ -1,0 +1,9 @@
+package br.com.fiap.dao;
+
+
+
+public interface TimeDAO {
+
+	void insert(Time time);
+	
+}

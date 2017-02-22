@@ -1492,3 +1492,12 @@ Caused by: java.io.IOException: Erro de entrada/saída
 2017-02-20 22:20:34,216 [Worker-59] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
 2017-02-20 22:22:09,850 [Worker-60] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
 2017-02-20 22:22:13,217 [Worker-60] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2017-02-22 19:20:00,847 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @614569ms
+2017-02-22 19:20:02,599 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-02-22 19:20:02,655 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@28fe0f32{/help,null,AVAILABLE}
+2017-02-22 19:20:02,695 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@15b8a890{HTTP/1.1,[http/1.1]}{127.0.0.1:2062}
+2017-02-22 19:20:02,695 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @616422ms
+2017-02-22 20:29:43,673 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2017-02-22 20:29:46,897 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2017-02-22 20:56:48,213 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@15b8a890{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-02-22 20:56:48,249 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@28fe0f32{/help,null,UNAVAILABLE}

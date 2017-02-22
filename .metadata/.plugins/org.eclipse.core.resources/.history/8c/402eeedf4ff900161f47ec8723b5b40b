@@ -1,0 +1,28 @@
+package br.com.fiap.dao.impl;
+
+import br.com.fiap.dao.TimeDAO;
+import br.com.fiap.entity.Time;
+
+public class TimeDAOImpl implements TimeDAO{
+
+	@Override
+	public void insert(Time time) {
+		
+	}
+
+	@Override
+	public void update(Time time) {
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		
+	}
+
+	@Override
+	public Time findById(int id) {
+		return null;
+	}
+
+}
