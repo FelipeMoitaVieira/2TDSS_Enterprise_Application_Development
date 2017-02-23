@@ -1,8 +1,0 @@
-package br.com.fiap.bean;
-
-public class Animal {
-
-	public void andar(){
-		System.out.println("Andando...");
-	}
-}

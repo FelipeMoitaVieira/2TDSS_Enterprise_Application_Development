@@ -1501,3 +1501,10 @@ Caused by: java.io.IOException: Erro de entrada/saída
 2017-02-22 20:29:46,897 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
 2017-02-22 20:56:48,213 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@15b8a890{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2017-02-22 20:56:48,249 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@28fe0f32{/help,null,UNAVAILABLE}
+2017-02-23 07:59:03,477 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @70415ms
+2017-02-23 07:59:04,903 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-02-23 07:59:04,943 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3f4f7419{/help,null,AVAILABLE}
+2017-02-23 07:59:04,957 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2a47bc51{HTTP/1.1,[http/1.1]}{127.0.0.1:19863}
+2017-02-23 07:59:04,957 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @71899ms
+2017-02-23 08:08:01,001 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2a47bc51{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-02-23 08:08:01,018 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3f4f7419{/help,null,UNAVAILABLE}

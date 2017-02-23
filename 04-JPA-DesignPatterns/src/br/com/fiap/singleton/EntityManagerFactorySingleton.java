@@ -5,10 +5,13 @@ import javax.persistence.Persistence;
 
 public class EntityManagerFactorySingleton {
 
+	//Atributo estático
 	private static EntityManagerFactory fabrica;
 	
+	//Construtor privado
 	private EntityManagerFactorySingleton(){}
 	
+	//Método estático que instancia o EntityManagerFactory
 	public static EntityManagerFactory getInstance(){
 		if(fabrica == null){
 			fabrica = Persistence.createEntityManagerFactory("CLIENTE_ORACLE");
